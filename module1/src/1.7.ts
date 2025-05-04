@@ -35,4 +35,16 @@ const MentoreList = {
 }
 
 
+// ------------------------------ Rest Operator for Ts
+
+
+const greetFriends = (...Friends:string [])=>{
+    Friends.forEach((Friends:string)=>{
+      console.log(`hi ${Friends}`)
+    })
+    }
+
+    greetFriends('mala', 'gita', 'samiya')
 }
+
+
