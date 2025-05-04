@@ -1,4 +1,4 @@
-// Function in Ts 
+{// Function in Ts 
 
 // ----- Normal Function 
 
@@ -25,3 +25,5 @@ const poorUser = {
 const arr : number [] = [11,24,30];
 
 const newArray : number[] = arr.map((elem:number):number => elem*elem);
+
+}
