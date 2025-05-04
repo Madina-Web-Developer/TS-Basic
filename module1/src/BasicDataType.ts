@@ -27,3 +27,21 @@ let Myname:undefined = undefined
 
 // -------- Array 
 
+let Friends : string[] = ['madina', 'Mina', 'tara']
+
+Friends.push('madina')
+
+let RollnumberList : number[] = [1,2,3]
+
+RollnumberList.push(2)
+
+
+// -------- Tuple 
+
+// tuple --- array---order---type of values
+
+let coordinator : [number, number] = [1,2]
+
+let mixedup : [string, number] = ['madina', 22]
+
+let ageName : [number, string, boolean] = [22, 'madina', true]
