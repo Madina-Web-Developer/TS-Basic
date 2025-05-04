@@ -18,6 +18,10 @@ const poorUser = {
     name: 'Madina',
     balance: 0,
     addBalance (balance : number): string {
-        return `My new balance is : ${this.balance + balance}`
+        return `My new balance is : ${this.balance + balance}`;
     }
-}
+};
+
+const arr : number [] = [11,24,30];
+
+const newArray : number[] = arr.map((elem:number):number => elem*elem);
