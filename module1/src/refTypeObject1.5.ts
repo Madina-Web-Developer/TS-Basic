@@ -15,3 +15,5 @@ const user:{
     Maritalstatus:true,
 }
 
+// if we use readonly before any kind of property then this value will be unchangable
+
