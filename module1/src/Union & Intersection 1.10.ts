@@ -54,6 +54,4 @@ const FullstackDeveloper : Developer = {
     Deg2:'BD',
 }
 
-
-
 }
