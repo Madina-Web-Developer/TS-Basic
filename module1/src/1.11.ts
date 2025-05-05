@@ -37,10 +37,32 @@ console.log({isAdult})
 
 
 
+//    -------------------------- Optional Types
 
+type User ={
 
+    name:string;
+    Address:{
+        city:string;
+        Presentaddress:string;
+        Prmanentaddress?:string
 
+    }
+}
 
+const user ={
+
+    name: 'Madina',
+    Address:{
+        city:'Dhaka',
+        Presentaddress:'Dhaka',
+        Prmanentaddress:'bshadshj'
+    }
+}
+
+const userpermanentAddress = user?.Address?.Prmanentaddress?? 'No Permanentaddress is given by the user';
+
+console.log({userpermanentAddress})
 
 
 }
